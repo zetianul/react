@@ -98,9 +98,13 @@ export const enableScrollEndPolyfill = __EXPERIMENTAL__;
 
 export const enableSuspenseyImages = false;
 
+export const enableFizzBlockingRender = __EXPERIMENTAL__; // rel="expect"
+
 export const enableSrcObject = __EXPERIMENTAL__;
 
 export const enableHydrationChangeEvent = __EXPERIMENTAL__;
+
+export const enableDefaultTransitionIndicator = __EXPERIMENTAL__;
 
 /**
  * Switches Fiber creation to a simple object instead of a constructor.
@@ -139,7 +143,7 @@ export const enablePersistedModeClonedFlag = false;
 
 export const enableShallowPropDiffing = false;
 
-export const enableSiblingPrerendering = true;
+export const enableEagerAlternateStateNodeCleanup = true;
 
 /**
  * Enables an expiration time for retry lanes to avoid starvation.

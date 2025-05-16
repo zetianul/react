@@ -26,7 +26,6 @@ export const {
   enableObjectFiber,
   enableRenderableContext,
   enableRetryLaneExpiration,
-  enableSiblingPrerendering,
   enableTransitionTracing,
   enableTrustedTypesIntegration,
   favorSafetyOverHydrationPerf,
@@ -108,13 +107,17 @@ export const disableLegacyMode = true;
 
 export const enableShallowPropDiffing = false;
 
+export const enableEagerAlternateStateNodeCleanup = false;
+
 export const enableLazyPublicInstanceInFabric = false;
 
 export const enableGestureTransition = false;
 
 export const enableSuspenseyImages = false;
+export const enableFizzBlockingRender = true;
 export const enableSrcObject = false;
 export const enableHydrationChangeEvent = false;
+export const enableDefaultTransitionIndicator = false;
 
 export const ownerStackLimit = 1e4;
 
