@@ -49,6 +49,7 @@ export const enableSchedulingProfiler = __PROFILE__;
 export const enableComponentPerformanceTrack = false;
 export const enableScopeAPI = false;
 export const enableShallowPropDiffing = false;
+export const enableEagerAlternateStateNodeCleanup = false;
 export const enableSuspenseAvoidThisFallback = false;
 export const enableSuspenseCallback = false;
 export const enableTaint = true;
@@ -61,8 +62,6 @@ export const renameElementSymbol = true;
 export const retryLaneExpirationMs = 5000;
 export const syncLaneExpirationMs = 250;
 export const transitionLaneExpirationMs = 5000;
-export const enableSiblingPrerendering = true;
-
 export const enableHydrationLaneScheduling = true;
 
 export const enableYieldingBeforePassive = false;
@@ -74,8 +73,10 @@ export const enableFastAddPropertiesInDiffing = false;
 export const enableLazyPublicInstanceInFabric = false;
 export const enableScrollEndPolyfill = true;
 export const enableSuspenseyImages = false;
+export const enableFizzBlockingRender = true;
 export const enableSrcObject = false;
 export const enableHydrationChangeEvent = false;
+export const enableDefaultTransitionIndicator = false;
 export const ownerStackLimit = 1e4;
 
 export const enableFragmentRefs = false;
